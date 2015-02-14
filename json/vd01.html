@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+  <script language="javascript">
+    json = {
+      "name" : "Jackie",
+      "email" : "vohoanglong07@gmail.com",
+      "course" : "lavarel"
+    }
+
+    json2 = {
+      "book" : [
+        {"name" : "PHP nang cao"},
+        {"author" : "Jackie"},
+        {"email": "vohoanglong07@gmail.com"}
+      ]
+    }
+
+    json3={
+      "books" : [
+        {"chapter" : [
+          {"title" : "PHP can ban"},
+          {"rating" : "easy"}
+        ]},
+        {"chapter" : [
+          {"title" : "PHP nang cao"},
+          {"rating" : "Normal"}
+        ]},
+        {"chapter" : [
+          {"title" : "PHP Framework"},
+          {"rating" : "Hard"}
+        ]}
+      ]
+    }
+
+    //document.write(json3.books[1].chapter[0].title);
+    for(i = 0 ; i < json3.books.length; i++){
+      title = json3.books[i].chapter[0].title;
+      document.writeln(title);
+    }
+  </script>
+</body>
+</html>

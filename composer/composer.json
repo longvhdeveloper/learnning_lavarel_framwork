@@ -1,0 +1,20 @@
+{
+  "name" : "test/demo",
+  "description:" : "Day la mot thu vien quan trong ung dung web",
+  "keyword" : ["php basic", "php advance", "CI framework"],
+  "homepage": "http://www.google.com.vn",
+  "author" : [
+    {
+      "name" : "Jackie",
+      "email" : "vohoanglong07@gmail.com"
+    }
+  ],
+  "require" : { 
+    "monolog/monolog": "1.12.*@dev"
+  },
+  "autoload" : {
+    "classmap" : [
+      "App/Library"
+    ]
+  }
+}

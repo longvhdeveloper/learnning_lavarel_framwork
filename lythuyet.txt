@@ -1,0 +1,37 @@
+I - Json (javascript object notation)
+{
+  "ten" : "gia tri",
+  "ten2" : "gia tri 2"
+}
+
+Vd : 
+json = {
+  "name" : "Jackie",
+  "email" : "vohoanglong07@gmail.com"
+}
+
+json.email
+
+Luu tru json duoi dang mang
+json = "ten" : [
+  {"ten1" : "giatri1"},
+  {"ten2" : "giatri2"}
+]
+
+json.ten[1].ten2
+
+PHP & Json:
+json_encode($data)
+json_decode($str)
+json_decode($str, true) 
+
+*cac ham ho tro json thi co the truyen du lieu giau cac he thong voi nhau, con ham serialize chi phu hop voi cac he thong dung PHP
+
+
+II - Namespace:
+
+III - Composer:
+
+cmd (install update, dump-autoload)
+
+
